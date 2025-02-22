@@ -33,7 +33,7 @@ export const Navbar = () => {
               variant="outline"
               size="sm"
               className="ml-4"
-              onClick={() => window.open('https://github.com/yourusername/learnstreamly', '_blank')}
+              onClick={() => window.open('https://github.com/Avinash1286/youtube-course-maker', '_blank')}
             >
               <Github className="h-4 w-4 mr-2" />
               GitHub
