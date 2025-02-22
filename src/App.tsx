@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-
+import { Analytics } from '@vercel/analytics/react';
 const queryClient = new QueryClient();
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
             </Routes>
           </main>
           <Toaster />
+          <Analytics />
         </div>
       </Router>
     </QueryClientProvider>
